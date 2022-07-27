@@ -8,7 +8,7 @@
 --link-btn-color:#2196F3 ;
 --adress-collor:rgba(255, 255, 255, 0.6);
 --logo-color:#000000;
---background-team:#E5E5E5;
+--background-team:#F5F4FA;
 }
 
 p,h1,h2,h3,h4,h5,h6 {
@@ -99,6 +99,11 @@ color: var(--link-btn-color);
 color: var(--link-btn-color);
 }
 
+.header-tel:hover,
+.header-tel:focus {
+color: var(--link-btn-color);
+}
+
 .active {
   color: var(--link-btn-color);
 }
@@ -117,8 +122,8 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--background-title-color);
-padding-top: 200px;
-padding-bottom: 280px;
+padding: 200px 0px;
+
 width: 696px;
 
 }
@@ -217,7 +222,7 @@ color:  var(--main-title-color);
 
 .team-item-profession {
 font-size: 16px;
-line-height: 1.19px;
+line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--text-secondary-color);
@@ -260,6 +265,7 @@ color: var(--background-title-color);
 
 .footer-link,
 .footer-tel{
+font-style: normal;
 font-weight: 400; 
 font-size: 14px;
 line-height:1.14;
@@ -276,6 +282,7 @@ color: var(--link-btn-color);
 /* ----------------BUTTONS--------------- */
 
 .buttons-btn {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
