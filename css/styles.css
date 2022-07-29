@@ -50,6 +50,13 @@ list-style: none;
 }
 /* -------------HEADER-------------- */
 
+.heder-container {
+display: flex;
+}
+
+.header-list {
+  display: flex;
+}
 .header-logo{
   font-family: 'Raleway';
   font-style: normal;
@@ -143,6 +150,7 @@ background-color: var(--link-btn-color);
 width: 216px;
 padding: 10px 32px 10px 32px;
 }
+
 
 /* -------------peculiarities-------------- */
 
